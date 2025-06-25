@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/paisagem.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+.header{
+    display: inline-block;
+    max-width: 1200px;
+    min-width: 100px;
+}
+
+button {
+    display: inline;
+    padding: 6px;
+    margin: 4px;
+    border: 1px solid rgb(8, 207, 207);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+h1{
+    width: 300px;
+    word-break: break-word;
+    
+}
+
+p{
+    width: 350px;
+    word-break: break-all;
+}
